@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Template Part: REQUEST_DEBUG_TEMPLATE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+</head>
+
+<body>
+
+<div class="container">
+
+	<h1>M_REQUEST_DEBUG</h1>
+
+<!-- Content Start
+================================================== -->
+
+<div id="HERE.request.debug">
+
+<!--
+  余計な div タグを出力しないために、
+  HERE.debug 内の一つ目の div タグのみ出力されます。 -->
+<div class="panel-group">
+	<div class="panel panel-info">
+		<div class="panel-heading">
+		<h4 class="panel-title">
+			<a id="HERE.panel-title" data-toggle="collapse" data-parent="#accordion" href="#HERE.panel-collapse">
+				[M_REQUEST_DEBUG]
+			</a>
+		</h4>
+		</div>
+		<div id="HERE.panel-collapse" class="panel-collapse collapse">
+			<div id="HERE.panel-body" class="panel-body">
+				dummy.request_debug
+			</div>
+		</div>
+	</div>
+</div><!-- /.panel-group -->
+
+</div><!-- /#HERE.request.debug -->
+
+<!-- Content End
+================================================== -->
+
+</div><!-- /#container -->
+
+<footer class="footer">
+	<div class="container">
+		<p class="pull-right"><a href="#">Back to top</a></p>
+		<p>Copyright &copy; Integsystem Corporation. All Rights Reserved.</p>
+	</div>
+</footer><!-- /.footer -->
+
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

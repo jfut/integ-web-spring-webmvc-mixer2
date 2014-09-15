@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- これはsrc/main/resources -->
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.out</target>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %level [%logger{36}] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- <logger name="org.springframework.cache" level="DEBUG"/> -->
+    <logger name="jp.integ.web" level="DEBUG"/>
+
+    <root>
+        <level value="DEBUG" />
+        <appender-ref ref="STDOUT" />
+    </root>
+
+</configuration>

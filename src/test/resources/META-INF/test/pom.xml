@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jp.integ.web</groupId>
+  <artifactId>integ-web-spring-webmvc-mixer2</artifactId>
+  <packaging>jar</packaging>
+  <name>Integ Web for Spring Web MVC Mixer2</name>
+  <version>x.y.z-SNAPSHOT</version>
+  <url>http://jfut.integ.jp/</url>
+  <inceptionYear>2014</inceptionYear>
+  <dependencies>
+    <dependency>
+      <groupId>dummy.foo.bar</groupId>
+      <artifactId>foo-bar.hoge1</artifactId>
+      <version>1.0</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>dummy.foo.foo</groupId>
+      <artifactId>foo-foo.hoge2</artifactId>
+      <version>2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>dummy.foo.foo</groupId>
+      <artifactId>foo-foo.hoge3</artifactId>
+      <version>3.0</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
